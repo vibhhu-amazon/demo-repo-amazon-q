@@ -2,6 +2,26 @@
 
 This simple Python project provides a "Hello, World!" function.
 
+## Installation
+
+You can install this package directly from the repository:
+
+```bash
+pip install git+https://github.com/vibhhu-amazon/demo-repo-amazon-q.git
+```
+
+Or for development:
+
+```bash
+git clone https://github.com/vibhhu-amazon/demo-repo-amazon-q.git
+cd demo-repo-amazon-q
+pip install -e .
+```
+
+## Requirements
+
+- Python 3.6 or higher
+
 ## Usage
 
 You can use the `hello_world` function in your Python code:
@@ -17,7 +37,7 @@ print(message)  # Outputs: Hello, World!
 Alternatively, you can run the module directly:
 
 ```bash
-python hello_world.py
+python -m hello_world.hello_world
 ```
 
 ## Testing
@@ -25,5 +45,5 @@ python hello_world.py
 To run the tests:
 
 ```bash
-python test_hello_world.py
+python -m unittest discover tests
 ```
