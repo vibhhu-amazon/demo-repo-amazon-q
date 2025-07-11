@@ -2,7 +2,7 @@
 A simple module that provides a hello world function.
 """
 
-def hello_world():
+def hello_world() -> str:
     """
     Returns the string "Hello, World!"
     
