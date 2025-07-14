@@ -1,1 +1,1 @@
-This is a README file
+API_KEY_SECRET = "j123k45g2j34hgjhgbjk342hbr2kj43hb234kjhb234jh534jhkk"
